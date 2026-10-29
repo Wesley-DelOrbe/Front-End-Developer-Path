@@ -1,0 +1,175 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(yellow, red);
+    /* background: linear-gradient(#a2d2ff, #EFB0C9); original Colors*/
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+h1{
+  background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;  
+}
+
+#bff-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+    /* width: 150px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+    margin-bottom: 10px; */
+}
+
+#bff-img img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid #EFB0C9;
+    margin-bottom: 10px;
+    object-position: center 35%;
+}
+
+#bday-age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+#bday-date h4{
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-amazing{
+    margin: 20px auto;
+    max-width: 400px;
+    height: 307px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+}
+
+#gift-img-hug{
+    margin: 20px auto;
+    max-width: 400px;
+    height: 215px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+}
+
+#gift-img-musketeers{
+    margin: 20px auto;
+    max-width: 400px;
+    height: 300px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: 100%;
+}
+
+#gift-img-dance{
+    margin: 20px auto;
+    max-width: 400px;
+    height: 536px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+}
+
+#gift-img-happy:hover {
+    background-image: url("images/happy.gif");
+}
+
+#gift-img-amazing:hover {
+    background-image: url("https://media1.tenor.com/m/YI9aHcK4M60AAAAC/sponge-bob-imagination.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#gift-img-hug:hover {
+    background-image: url("images/BFF-hug.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#gift-img-musketeers:hover {
+    background-image: url("images/All-three-of-us.jpg");
+    background-size: 250%;
+    background-position: center 30%;
+    transition: background-size 0.5s ease-in-out;
+}
+
+#gift-img-dance:hover {
+    background-image: url("images/Dancing.gif");
+    background-size: contain;
+    background-repeat: no-repeat
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
