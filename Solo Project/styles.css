@@ -1,0 +1,123 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+Onyx: #0F1211
+Deep Prussian Blue: #082C39
+Raisin Black: #23201B
+Deep Charcoal: #121A1A
+Dust Grey: #D1C8C1
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Source Serif 4", serif;
+}
+
+.hero{
+    background-image: url(images/Manhattan/New-York-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 300px; */
+    background-position: center;
+    padding-bottom: 100px;
+}
+
+.hero-txt,.act-txt, .act-h, .act-p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #D1C8C1;
+    text-shadow: 0px 0px 1px #082C39;
+}
+
+
+.act-h{
+    width: 130px;
+    margin: 0 auto;
+}
+
+.act-p{
+    width: 150px;
+    margin: 10px auto 20px;
+} 
+
+#nyc-head{
+    margin-top: 75px;
+    color: #0F1211;
+    background: #D1C8C1;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#nyc-sub{
+    margin-top: -10px;
+    color: #0F1211;
+    background-color: #D1C8C1;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.activities{
+    background-color: #23201B;
+    height: 330px;
+    padding-top: 1px;
+}
+
+#activity-fitting{
+    margin: 25px 0px 20px 0px;
+}
+
+.activites-img{
+    display: flex;
+    justify-content: space-around;
+}
+
+.activity-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.activites-img img{
+    width: 120px;
+    height: 110px;
+    border: 3px solid #D1C8C1;
+    border-radius: 50%;
+    margin: 0px 0px 10px 0px ;
+}
+
+.guide{
+    background-color: #D1C8C1;
+    height: 320px;
+    width: 450px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    margin: 40px auto;
+    border-radius: 10px;
+    border-bottom: 12px solid #121A1A;
+}
+
+.guide-info{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0px 0px 0px 15px;
+}
+
+.guide-txt{
+    text-align: center;
+}
+
+#Wes-img {
+    width: 200px;
+    height: 180px;
+    margin: 0px 0px 0px 15px;
+    border: 4px solid #23201B;
+    border-radius: 15px;
+}
