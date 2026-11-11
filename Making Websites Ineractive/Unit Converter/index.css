@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    background-color: #000000; /* black */
+    color: #FFFFFF; /* white */
+}
+
+.design {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: #1F2937; /* purple */
+    
+    max-width: 625px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;
+    border: 4px solid white;
+    
+}
+
+/* first section */
+
+.header-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: #6943FF;
+    /* padding: 50px 63px; */
+    padding: 30px 0px;
+    
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+/* first section [Title] */
+.title{
+    font-weight: bold;
+    
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+/* first section [Value] */
+
+.unit-value{
+    text-align: center;
+    color: inherit;
+    
+    font-size: 55px;
+    font-weight: bold;
+    width: 100px;
+    
+    border: 3px solid #B295FF;
+    border-radius: 5px;
+    
+    background-color: transparent;
+    padding: 6px 5px;
+    
+    margin-top: 0px;
+    margin-bottom: 30px;
+    
+    
+}
+/* to remove the '+' and '-' buttons   */
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+     margin: 0;
+}   
+
+/* first section [Button] */
+
+.btn-convert{
+    font-size: 18px;
+    
+    border: none;
+    border-radius: 5px;
+    padding: 8px 35px;
+}
+
+/* second section */
+
+.length-conversion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: #273549;
+}
+
+.volume-conversion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: #273549;
+    
+}
+
+.mass-conversion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: #273549;
+
+}
+
+/* text/content section  */
+
+h1{
+    font-size: 25px;
+}
+
+h3{
+    color: #CCC1FF;
+    font-size: large;
+    font-weight: bold;
+    
+    margin-bottom: 0px;
+}
+
+h4{
+    font-weight: lighter;
+    font-size: small;
+    
+    margin-top: 15px;
+}
+
+
+
+.header-top, .length-conversion, .volume-conversion,  .mass-conversion {
+    width: 90%; 
+    /* min-width: 500px ; */
+    max-width: 500px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.length-conversion, .volume-conversion,  .mass-conversion {
+    width: 100%;
+    
+    margin: 0px auto 30px;
+    padding: 30px 50px;
+}
